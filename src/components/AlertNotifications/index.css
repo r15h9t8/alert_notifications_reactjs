@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.alter-notification-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.alert-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.alert-message-content {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.success,
+.success-icon {
+  color: #2dca73;
+}
+
+.error,
+.error-icon {
+  color: #ff0b37;
+}
+
+.warning,
+.warning-icon {
+  color: #ffb800;
+}
+
+.info,
+.info-icon {
+  color: #0f81e0;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #64748b;
+  margin-left: 50px;
+}
